@@ -1,0 +1,43 @@
+1)QUICK SORT
+------------
+
+-Algorithm (Step-by-Step Explanation)
+
+    Pick a Pivot: Choose any element in the array (e.g., the first, last, or middle element).
+
+    Partition: Rearrange the array such that:
+        All elements smaller than the pivot go to its left.
+        All elements larger go to its right.
+
+    Recursively Apply Quick Sort: Apply quick sort to the left and right sub-arrays.
+
+    Base Case: Stop when the array or sub-array has 0 or 1 element (it's already sorted).
+
+
+2)MERGE SORT
+------------
+Merge Sort is a divide and conquer algorithm used to sort an array or list. It breaks the array into smaller parts, sorts them individually, 
+and then merges them back together into a sorted array.
+
+
+3)COUNTING SORT
+----------------
+
+Counting Sort is a simple sorting algorithm that organizes elements by counting how many times each unique value occurs. 
+It’s most effective when sorting integers or data with a small range of values.
+
+
+4)RADIX SORT
+------------
+
+Radix Sort is a non-comparison-based sorting algorithm that works by sorting numbers digit by digit,
+starting from the least significant digit (LSD) to the most significant digit (MSD). 
+It uses another stable sorting algorithm (like Counting Sort) as a subroutine to sort the digits.
+
+
+5)BUCKET SORT
+-------------
+
+Bucket Sort is a sorting algorithm that divides the input array into several "buckets," 
+sorts each bucket individually (often using another sorting algorithm like Insertion Sort), 
+and then combines the sorted buckets to produce the final sorted array
