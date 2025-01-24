@@ -17,7 +17,70 @@ Basic DOM manipulation methods
 -document.querySelector(): Selects the first matching element using CSS selectors.
 -document.querySelectorAll(): Selects all matching elements using CSS selectors.
 
-2)Adding  and removing elements:
+2)Adding  elements:
+-document.CreateElement
+-append
+-appendChild
+-TO ADD TEXT TO THE NEW ELEMENT-Inner text ,text content, inner html
+
+3)Remove elements from the DOM
+
+
+EVENT HANDLING
+---------------
+Event handling in JavaScript refers to the process of capturing and responding to events, such as clicks, key presses,
+mouse movements, and other user interactions or browser actions. 
+When an event occurs, JavaScript can "handle" it by running a function (also called an event handler or callback function) in response.
+
+-2 Ways to handle events
+1.event handler
+2.event listner
+
+
+EVENTS IN JAVASCRIPT
+--------------------
+1. Mouse Events
+
+    click: Triggered when the mouse button is clicked on an element.
+    dblclick: Triggered when the mouse button is double-clicked on an element.
+    mouseover: Triggered when the mouse pointer enters an element.
+    mouseout: Triggered when the mouse pointer leaves an element.
+    mousemove: Triggered when the mouse pointer moves over an element.
+    mousedown: Triggered when a mouse button is pressed down.
+    mouseup: Triggered when a mouse button is released.
+
+2. Keyboard Events
+
+    keydown: Triggered when a key is pressed down.
+    keyup: Triggered when a key is released.
+    keypress: Triggered when a key is pressed and produces a character (deprecated).
+
+3. Form Events
+
+    submit: Triggered when a form is submitted.
+    change: Triggered when the value of an element changes.
+    focus: Triggered when an element gains focus.
+    blur: Triggered when an element loses focus.
+    input: Triggered when the value of an <input> element changes.
+
+4. Window Events
+
+    load: Triggered when the page and all its resources (like images, scripts, etc.) are fully loaded.
+    resize: Triggered when the window is resized.
+    scroll: Triggered when the user scrolls the page.
+
+5. Touch Events (For touch devices)
+
+    touchstart: Triggered when the touch point is placed on the screen.
+    touchend: Triggered when the touch point leaves the screen.
+    touchmove: Triggered when the touch point moves across the screen.
+
+6. Focus and Blur Events
+
+    focus: Triggered when an element (like an input field) gains focus.
+    blur: Triggered when an element loses focus.
+
+
 
 
 
