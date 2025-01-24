@@ -1,0 +1,158 @@
+VARIABLES
+----------
+
+
+1)var
+
+Introduced in early JavaScript (before ES6).
+Has function scope (not block scope).
+Can be redeclared and updated.
+Variables declared with var are hoisted (moved to the top of the function or global scope) but remain undefined until assigned a value.
+
+2)let
+Has block scope (only accessible inside the block {} where it's defined).
+Can be updated but cannot be redeclared in the same scope.
+Use let when you need to declare variables that may need to be updated (e.g., counters in loops or variables that change value).
+
+3)const
+Has block scope (like let).
+Cannot be updated or redeclared once assigned a value.
+Hoisted, but not initialized (accessing it before declaration results in a ReferenceError).
+For objects and arrays, the reference is constant, but the contents can still be modified.
+Use const by default when declaring variables that shouldn't be reassigned (e.g., configuration values, DOM elements, function references, etc.).
+
+
+SCOPE
+-----
+Scope in JavaScript determines where variables, functions, and objects are accessible in your code.
+It's essentially the "context" in which a variable or function is declared and can be accessed.
+
+1)Global scope
+Variables declared outside of any function or block have global scope.
+They can be accessed anywhere in your program.
+
+2)Function scope
+Variables declared inside a function are only accessible within that function.
+They are not accessible outside the function.
+
+3)Block scope
+Variables declared with let or const inside a block ({}) are only accessible within that block.
+
+
+DATA TYPES
+-----------
+
+-2 TYPES
+1)Primitive types
+2)Object types
+
+
+1)Primitive types:
+
+-string 
+-number
+-bigint
+-boolean
+-undefined
+-null
+-symbol
+
+
+2)Object types
+
+-Object-A collection of key-value pairs
+eg:let user = {
+  name: "Alice",
+  age: 30,
+};
+
+-Array-A special type of object used to store ordered collections of data.
+eg:let fruits = ["apple", "banana", "cherry"];
+
+-Functions-Functions are objects in JavaScript and can be assigned to variables or passed as arguments.
+eg:function greet() { 
+    console.log("hello");
+}
+greet();
+
+-date 
+
+-regular expressions
+
+
+
+3)Special data types
+-infinity
+-not a number
+
+
+
+FUNCTIONS
+---------
+A function is a reusable block of code that performs a specific action when it is called or invoked. 
+Functions can take inputs (parameters) and return outputs (a value).
+
+1)named functions:
+These are the traditional functions that are explicitly defined by a name.
+eg:
+function greet(name) {
+  console.log(`Hello, ${name}!`);
+}
+greet("Alice"); // Output: Hello, Alice!
+
+2)anonymous functions
+An anonymous function is a function that doesn’t have a name.
+It is usually used in situations where functions are passed as arguments (like callbacks) or assigned to variables.
+eg:
+const greet = function(name) {
+  console.log(`Hello, ${name}!`);
+};
+greet("Bob"); // Output: Hello, Bob!
+
+
+3)Arrow functions
+Arrow functions provide a shorter syntax for writing functions. 
+They also don’t have their own this value, which is useful in certain situations like handling this in event handlers
+eg:
+const add = (a, b) => a + b;
+console.log(add(5, 3)); // Output: 8
+
+
+5)Function expressions
+In JavaScript, functions can be assigned to variables. 
+These functions can be anonymous or named, and they are called function expressions.
+
+6)Recursive functions
+A recursive function is a function that calls itself in order to solve a problem. 
+This type of function is often used to solve problems that can be broken down into smaller, similar subproblems 
+(like calculating factorials or traversing tree structures).
+eg:
+function factorial(n) {
+  if (n === 1) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
+console.log(factorial(5)); // Output: 120
+
+7)Higher order functions
+A higher-order function is a function that takes one or more functions as arguments or returns a function. 
+Functions like map(), filter(), and reduce() are examples of higher-order functions in JavaScript.
+
+
+8)Call back functions
+A callback function is a function passed as an argument to another function. 
+It is executed after the completion of the outer function’s task. 
+Callbacks are commonly used for asynchronous operations (e.g., events, promises).
+
+
+
+
+
+
+
+
+
+
+
+
