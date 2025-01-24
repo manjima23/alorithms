@@ -1,0 +1,23 @@
+DOCUMENT OBJECT MODEL
+---------------------
+The DOM (Document Object Model) is a programming interface for web documents.
+It represents the structure of a web page as a tree of objects where each object corresponds to an element or attribute in the page.
+
+Key concepts:
+-Tree strucutre
+-nodes(HTML Tags)
+-Accessing the DOM
+
+Basic DOM manipulation methods
+------------------------------
+1) Selecting elements:
+-document.getElementById(): Selects an element by its id.
+-document.getElementsByClassName(): Selects elements by their class name.
+-document.getElementsByTagName(): Selects elements by their tag name (e.g., div, p, h1).
+-document.querySelector(): Selects the first matching element using CSS selectors.
+-document.querySelectorAll(): Selects all matching elements using CSS selectors.
+
+2)Adding  and removing elements:
+
+
+
