@@ -20,4 +20,9 @@ console.log(`The sum of ${a} and ${b} is ${a + b}.`);
 
 2)Destructuring
 ---------------
+Destructuring is a feature introduced in ES6 that allows you to extract values from arrays or properties from objects
+and assign them to variables in a cleaner and more concise way.
+It’s often used to simplify the extraction of values from complex structures like objects and arrays.
+
+
 
