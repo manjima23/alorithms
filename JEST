@@ -1,0 +1,19 @@
+JEST
+----
+Jest is a powerful and easy-to-use testing framework for JavaScript applications. 
+It works well with popular libraries like React, Angular, Node.js, and Vanilla JavaScript.
+
+
+Test syntax
+------------
+test(description, callback) or it(description, callback)
+
+
+
+Matchers
+--------
+Jest provides matchers to compare values:
+
+    -toBe: For strict equality (===).
+    -toEqual: For deep equality (objects, arrays).
+
