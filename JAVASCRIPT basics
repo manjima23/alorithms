@@ -147,6 +147,53 @@ Callbacks are commonly used for asynchronous operations (e.g., events, promises)
 
 
 
+Promises
+---------
+A Promise in JavaScript is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value. 
+Promises provide a cleaner way to handle asynchronous code compared to callbacks, avoiding callback hell and making the code more readable.
+
+Handling the promise:
+// Handling the Promise
+myPromise
+  .then((result) => {
+    console.log(result); // Logs: 'Operation succeeded!'
+  })
+  .catch((error) => {
+    console.error(error); // Logs: 'Operation failed!' if rejected
+  })
+  .finally(() => {
+    console.log('Operation complete!'); // Runs no matter what
+  });
+
+
+Async and Await
+---------------
+async and await are modern features in JavaScript, introduced in ES2017 (ES8), 
+to simplify working with promises and make asynchronous code easier to read and write.
+They allow you to write asynchronous code that looks and behaves more like synchronous code.
+
+Async Keyword:
+-------------
+The async keyword is used to declare a function as asynchronous. 
+An asynchronous function always returns a promise—either explicitly or implicitly:
+
+    -If the function returns a value, the promise resolves with that value.
+    -If the function throws an error, the promise is rejected.
+eg:
+async function example() {
+  return 'Hello, async!';
+}
+
+example().then((result) => console.log(result)); // Logs: 'Hello, async!'
+
+Await Keyword
+--------------
+The await keyword can only be used inside an async function.
+It pauses the execution of the function until the promise resolves or rejects:
+
+If the promise resolves, await returns the resolved value.
+If the promise rejects, it throws the error, which can be caught using try...catch.
+
 
 
 
