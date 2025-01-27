@@ -1,0 +1,50 @@
+MANUAL TESTING
+--------------
+
+1)Test case
+------------
+In manual testing, a test case is a detailed, step-by-step description of how to verify 
+whether a particular feature or functionality of a software application works as expected. 
+It is a structured document or format used by testers to ensure thorough testing of the application.
+
+Key elements of a test case
+------------------------------
+  -Test Case ID
+    A unique identifier for the test case (e.g., TC001).
+
+  -Test Case Title/Name
+    A brief description of the test case (e.g., "Verify login functionality with valid credentials").
+
+  -Objective
+    The purpose of the test case—what it aims to validate.
+
+  -Preconditions
+    Any prerequisites that need to be met before executing the test case (e.g., "User must have a valid account").
+
+  -Test Steps
+    Detailed instructions on how to perform the test. Each step is clear and specific.
+
+    Example:
+        Open the application.
+        Navigate to the login page.
+        Enter valid credentials.
+        Click the "Login" button.
+
+  -Expected Result
+    The expected outcome of the test case after performing the steps (e.g., "User is redirected to the dashboard page").
+
+  -Actual Result
+    The outcome observed during test execution. This is filled in during the testing process.
+
+  -Test Data
+    Specific data required to execute the test (e.g., username and password).
+
+  -Priority
+    Indicates how important the test case is (e.g., High, Medium, Low).
+
+  -Status
+    Indicates whether the test case passed or failed after execution.
+
+  -Attachments (Optional)
+    Screenshots, logs, or other evidence collected during testing.
+
