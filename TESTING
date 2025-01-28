@@ -1,0 +1,31 @@
+JEST
+----
+Primarily used for unit, integration, and component testing (often for JavaScript apps).
+
+How it works: Jest is a test runner and assertion library that allows you to write tests for your JavaScript code (e.g., functions, components, etc.). 
+It can be used for testing frontend or backend code, but it doesn't directly interact with the browser (for UI interaction, you'd need to pair it with other libraries).
+
+Use cases:
+Testing JavaScript functions, API calls, and React components (with React Testing Library).
+Used with other libraries like React Testing Library, Enzyme, etc., for DOM testing.
+
+
+PUPPETEER
+----------
+ A Node.js library to control headless Chrome or Chromium, ideal for browser-based automation and end-to-end (E2E) testing.
+How it works: Puppeteer can automate user interactions with your app in a headless browser (or in a full browser, if configured).
+It provides low-level control to simulate real user interactions like clicking buttons, typing into forms, navigating between pages, etc.
+Use case:
+
+    End-to-end (E2E) testing.
+    Web scraping, taking screenshots, or generating PDFs.
+
+Speed: Slower compared to Jest since it involves controlling a full browser (even if it's headless)
+
+CYPRESS
+-------
+A testing framework for end-to-end testing in the browser. 
+It's similar to Puppeteer but with more built-in features for writing and running E2E tests
+Cypress runs in the same execution loop as your application,
+which allows it to interact directly with the browser's DOM. 
+It provides a powerful UI for running tests, real-time feedback, and automatic waiting for elements to be ready
